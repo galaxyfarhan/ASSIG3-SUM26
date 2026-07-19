@@ -1,0 +1,15 @@
+{
+  "name": "greenthumb-assignment3",
+  "version": "1.0.0",
+  "description": "CYSE 411 Assignment 3 — a deliberately vulnerable plant-swap board to be secured by the student.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "exploit": "node exploits/run-all.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sql.js": "^1.10.3"
+  }
+}
